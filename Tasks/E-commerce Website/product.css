@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+}
+.title {
+  color: white;
+  text-align: center;
+  width: 50%;
+  line-height: 80px;
+}
+.menu {
+  width: 50%;
+  line-height: 80px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.container {
+  width: 80%;
+  height: 90vh;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+}
+#leftpanel {
+  width: 20%;
+  border: 2px solid black;
+}
+#rightpanel {
+  width: 80%;
+  
+  box-shadow: 0 0 10px;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
